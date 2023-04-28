@@ -35,7 +35,7 @@ namespace EntityFrameworkTrial.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employees", (string)null);
                 });
 
             modelBuilder.Entity("EntityFrameworkTrial.Models.Role", b =>
@@ -56,7 +56,7 @@ namespace EntityFrameworkTrial.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("Role");
+                    b.ToTable("Role", (string)null);
                 });
 
             modelBuilder.Entity("EntityFrameworkTrial.Models.Role", b =>

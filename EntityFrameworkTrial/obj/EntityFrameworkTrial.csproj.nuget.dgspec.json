@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Study\\Entity-Framework\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial.csproj": {}
+    "D:\\Jordon-Space\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial.csproj": {}
   },
   "projects": {
-    "F:\\Study\\Entity-Framework\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial.csproj": {
+    "D:\\Jordon-Space\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Study\\Entity-Framework\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial.csproj",
+        "projectUniqueName": "D:\\Jordon-Space\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial.csproj",
         "projectName": "EntityFrameworkTrial",
-        "projectPath": "F:\\Study\\Entity-Framework\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial.csproj",
-        "packagesPath": "C:\\Users\\Mustafa Mahmoud\\.nuget\\packages\\",
-        "outputPath": "F:\\Study\\Entity-Framework\\EntityFrameworkTrial\\EntityFrameworkTrial\\obj\\",
+        "projectPath": "D:\\Jordon-Space\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial.csproj",
+        "packagesPath": "C:\\Users\\Moustafa Mahmoud\\.nuget\\packages\\",
+        "outputPath": "D:\\Jordon-Space\\EntityFrameworkTrial\\EntityFrameworkTrial\\EntityFrameworkTrial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mustafa Mahmoud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Moustafa Mahmoud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

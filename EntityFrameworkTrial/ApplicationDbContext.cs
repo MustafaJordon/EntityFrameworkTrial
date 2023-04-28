@@ -12,6 +12,7 @@ namespace EntityFrameworkTrial
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             new EmployeeEntityTypeConfiguration().Configure(modelBuilder.Entity<Employee>());
+            new RoleEntityTypeConfiguration().Configure(modelBuilder.Entity<Role>());
         }
 
         public DbSet<Employee> Employees { get; set; }
