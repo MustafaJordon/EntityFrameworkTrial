@@ -8,9 +8,10 @@ namespace EntityFrameworkTrial.Configurations
     {
         public void Configure(EntityTypeBuilder<Role> builder)
         {
-            builder.Property(p => p.Status).HasColumnType("VARCHAR(60)");
-            builder.Property(p => p.Name).HasColumnType("NVARCHAR(80)");
-            builder.Property(p => p.Id);
+            builder
+                .HasOne<Employee>()
+                .WithOne()
+                .HasForeignKey<Role>(r => r.EmployeeId);
         }
     }
 }

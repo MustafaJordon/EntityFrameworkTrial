@@ -13,9 +13,7 @@ namespace EntityFrameworkTrial.Configurations
     {
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
-            builder
-                .Property(p => p.Name)
-                .IsRequired();
+            
         }
     }
 }

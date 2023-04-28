@@ -10,8 +10,9 @@ namespace EntityFrameworkTrial.Models
     public class Role
     {
         public int Id { get; set; }
-        public string? Name { get; set; }
-        public string? Status { get; set; }
-        public Employee Employee { get; set; }
+        public string Name { get; set; }
+        public string Status { get; set; }
+        public int EmployeeId { get; set; }     //Foreign Key in one to one relationship
+        //public Employee Employee { get; set; }  //Navigation Property to table Employees
     }
 }
